@@ -1,0 +1,506 @@
+*{
+
+    font-family: Arial;
+    cursor: url("Cursor.png") , auto;
+}     
+
+header
+{
+    position: absolute;
+    left: 10%;
+    top: 10px;
+    right: 10%;
+    height: 180px;
+    background:     rgba(0, 0, 0, 0.7);
+    border-radius:  12px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background:url(" <?php echo "$background"; ?>.jpg") scroll center top transparent;
+    font-family: sans-serif;
+    background-color: black;
+    background-size: 100%;
+    -moz-background-size:100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: left top;
+    color: white;
+}
+
+
+.myButton {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+	-moz-box-shadow:inset 0px 0px 15px 3px #23395e;
+	-webkit-box-shadow:inset 0px 0px 15px 3px #23395e;
+	box-shadow:inset 0px 0px 15px 3px #23395e;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2e466e), color-stop(1, #415989));
+	background:-moz-linear-gradient(top, #2e466e 5%, #415989 100%);
+	background:-webkit-linear-gradient(top, #2e466e 5%, #415989 100%);
+	background:-o-linear-gradient(top, #2e466e 5%, #415989 100%);
+	background:-ms-linear-gradient(top, #2e466e 5%, #415989 100%);
+	background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2e466e', endColorstr='#415989',GradientType=0);
+	background-color:#2e466e;
+	-moz-border-radius:17px;
+	-webkit-border-radius:17px;
+	border-radius:17px;
+	border:1px solid #1f2f47;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	padding:9px 40px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #415989), color-stop(1, #2e466e));
+	background:-moz-linear-gradient(top, #415989 5%, #2e466e 100%);
+	background:-webkit-linear-gradient(top, #415989 5%, #2e466e 100%);
+	background:-o-linear-gradient(top, #415989 5%, #2e466e 100%);
+	background:-ms-linear-gradient(top, #415989 5%, #2e466e 100%);
+	background:linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#415989', endColorstr='#2e466e',GradientType=0);
+	background-color:#415989;
+}
+.myButton:active {
+	position:absolute;
+	top:6px;
+	right: 5px;
+}
+
+
+
+.footer {
+    text-decoration: none;
+    color: white;
+}
+
+#loginform{
+    float: left;
+}
+
+
+main {
+    position:       absolute;
+    margin-top:     200px;
+    padding-top:    0px;
+    padding-bottom: 50px;
+    padding-right:  50px;
+    border-radius:  12px;
+    background:     rgba(0, 0, 0, 0.7);
+    left: 10%;
+    right: 10%;
+    overflow: initial;
+    color: white;
+}
+
+label  {
+    color: white;
+}
+
+footer {
+    position:       absolute;
+    width:          100%;
+    bottom:         0;
+    text-align:     center;
+    padding:        10px 0 10px 0;
+    border-top: solid white 1px;
+}
+
+section {
+    margin-left: 2%;
+    width:      100%;
+    min-height: 50%;
+    height:     150%;
+    min-height: 700px;
+    padding:    2%;
+    overflow: initial;
+}
+
+.login{
+ position: absolute;
+ left: 15%;
+}
+
+form{
+    color: black;
+}
+
+.form{
+    position: absolute;
+    left: 350px;
+}
+
+.form2{
+    position: absolute;
+    left: 650px;
+}
+
+.text2{
+    position: absolute;
+    left: 550px;
+}
+
+
+nav
+{
+    position: absolute;
+    left: 0px;
+    height: 50px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.logo
+{
+    position: absolute;
+    left: 0px;
+    width: 25%;
+    top: 0px;
+    bottom: 40px;
+    background-image: url(Logo1.png);
+    background-size:90% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Kategorien
+{
+
+    position: absolute;
+    width: 15%;
+    top: 0px;
+    bottom: 10px;
+
+}
+
+
+#Mause
+{
+    background-size:auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(Mausweiss.png);
+}
+
+#Mause:hover, #Mause.active
+{
+    background-image: url(Mausblau.png);
+}
+
+#Tastaturen
+{
+    position: absolute;
+    left: 17%;
+
+    background-size:auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(Tastaturweiss.png);
+}
+
+#Tastaturen:hover, #Tastaturen.active
+{
+    background-image: url(Tastaturblau.png);
+}
+
+#Mousepads
+{
+    position: absolute;
+    left: 34%;
+
+    background-size:auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(Mousepadweiss.png);
+}
+
+#Mousepads:hover, #Mousepads.active
+{
+    background-image: url(Mousepadblau.png);
+}
+
+#Headsets
+{
+    position: absolute;
+    left: 51%;
+
+    background-size:auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(Headsetweiss.png);
+}
+
+#Headsets:hover, #Headsets.active
+{
+    background-image: url(Headsetblau.png);
+}
+
+#Controller
+{
+    position: absolute;
+    left: 68%;
+
+    background-size:auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(Controllerweiss.png);
+}
+
+#Controller:hover, #Controller.active
+{
+    background-image: url(Controllerblau.png);
+}
+
+
+#Accesoires
+{
+    position: absolute;
+    left: 85%;
+    right: 0px;
+
+    background-size:auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(Accesoires.png);
+}
+
+#Accesoires:hover, #Accesoires.active
+{
+    background-image: url(accesoiresblue.png);
+}
+
+.RoccatFilter
+{
+
+    width: 15%;
+    background-color: #000000;
+    height: 200px ;
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(Roccat.jpg);
+    border: solid gray 3px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 100px;
+    margin-left: 7px;
+
+
+}
+
+.RazerFilter
+{
+    width: 15%;
+    background-color: #000000;
+    height: 200px ;
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(Razer.jpg);
+    border: solid gray 3px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 100px;
+    margin-left: 7px;
+}
+
+.SennheiserFilter
+{
+    width: 15%;
+    background-color: #000000;
+    height: 200px ;
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(sennheiser.jpg);
+    border: solid gray 3px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 100px;
+    margin-left: 7px;
+}
+
+.LogitechFilter
+{
+    width: 15%;
+    background-color: #000000;
+    height: 200px ;
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(logitech.png);
+    border: solid gray 3px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 100px;
+    margin-left: 7px;
+
+}
+
+.MadCatzFilter
+{
+    width: 15%;
+    background-color: #000000;
+    height: 200px ;
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(Madcatz.jpg);
+    border: solid gray 3px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 100px;
+    margin-left: 7px;
+}
+
+.Filterbeschreibung
+{
+    margin: 40px;
+    color: white;
+    font-family: fantasy;
+    top: 50px;
+}              
+
+#LEL{
+    background-image: url(mountains.gif);
+}
+
+.suchposition{
+    position: absolute;
+    right: 300px;
+    top: 20px;
+    color: #ffffff;
+    }
+
+#positionsuche{
+    position: absolute;
+    right: 300px;
+    top: -180px;
+    color: #ffffff;
+    }
+
+#Produkt{
+    width: 29%;
+    height: 220px;
+    text-align: center;
+    background: black;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: inline-block;
+    border: 3px solid #2D2D2D;
+    float: left;
+    cursor: pointer;
+}
+
+#bilder{
+    height: 94px;
+    max-width: 40%;
+}
+
+.wkbilder{
+    float: left;
+    height: 80%;
+    margin: 1%;
+}
+
+.Produktesite{
+    height: 30vh;
+
+}
+
+#link{
+    position: absolute;
+    top: 200px;
+}
+
+#mitteilungreg{
+    position: absolute;
+    top: 190px;
+    left: 180px;
+    color: #ffffff;
+}
+
+.p-suchen{
+    position: absolute;
+    right: 230px;
+    top: -170px;
+    color: #ffffff;
+}
+
+#Produktwk{
+    width: 90%;
+    height: 150px;
+    background: black;
+    margin: 1%;
+    display: inline-block;
+    border: 3px solid #2D2D2D;
+    cursor: pointer;
+}
+
+#kommentar{
+    width: 60%;
+    height: 300px;
+}
+
+#Sterneins{
+    background:     rgba(0, 0, 0, 0.7);
+}
+
+.Warenkorbbutton{
+    background-image: url(Warenkorb.png);
+    background-size:auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 5px;
+    right: 500px;
+}
+
+.artikel{
+    float: left;
+    width: 100%;
+}
+
+#Produktname{
+    margin-top: 60px;
+}
+
+.Produktnamewk{
+    position: absolute;
+    left: 30%;
+}
+
+.Produktpreis{
+    position: absolute;
+    left: 55%;
+}
+
+.Produktanzahl{
+    position: absolute;
+    left: 80%;
+}
+
+form{
+    color: white;
+}
+
+input{
+    color: black;
+}

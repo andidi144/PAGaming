@@ -1,0 +1,180 @@
+/*body{
+    
+} */
+
+  
+
+#login{
+    position: relative;
+    background: rgba(255, 255, 255, 0.5);
+    background-color: ;
+    width: 20%;
+    height: 200px;    
+    left: 39%;
+    top: 350px;
+    background-repeat: no-repeat;
+}
+
+#backend{
+    background-color: #00FF00;
+    
+    
+}
+
+.bgbackend{
+    background-image: url(holzbridge.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.bghinzufuegen{
+    background-image: url(deathvalley.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.bghersteller{
+    background-image: url(best-nature-wallpapers-hd-abstract-photo-best-wallpaper.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.bgentfernen{
+    background-image: url(bridge.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.bgbearbeiten{
+    background-image: url(baum.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.bguser{
+    background-image: url(berg.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.bgherstellerhinzufuegen{
+    background-image: url(retro-color-landscape-tree.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;  
+}
+
+.bgherstellerentfernen{
+    background-image: url(desert-landscape-wallpaper.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat; 
+}
+
+.bgkategoriehinzufuegen{
+    background-image: url(4fb489f4bcc3daa52b0c07f8dbf2d419.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;  
+}
+
+.bgkategorieentfernen{
+    background-image: url(autumn-landscape-wallpaper.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;  
+}
+
+.login{
+    background-image: url(backend-background.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    }
+    
+.nav{
+    font-family: fantasy;
+	width:200px;
+	background:white;
+}
+.nav a{
+	padding:15px;
+	display:block;
+	color: black;
+}
+
+.nav ul{
+	display:none;          /* HIDE ALL INNER UL */
+	background:#E2E3E5;
+}
+.nav li:hover > ul{
+	display:block;         /* SHOW INNER UL ON LI PARENT HOVER */
+}
+
+.header{
+    font-family: fantasy;
+    font-size: 30px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    text-align: center;
+    top:1px;
+        
+    
+}
+
+.hinzufuegen{
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 25%;
+    
+    }
+    
+.navigation{
+    position: relative;
+    margin-top: 1%;
+    float: left;
+}
+
+.abstand{
+    position: absolute;
+    left: 30%;
+} 
+
+.abstand2{
+    position: absolute;
+    left: 105%;
+}
+
+#egg{
+    background-image: url(tumblr_mp2nhu6l7H1sppmago1_1280.gif);
+    font-family: fantasy;
+    font-size: 50px;
+    cursor: wait;
+}
+
+.p-entfernen{
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 25%;
+
+    }
+    
+.b-entfernen{
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 25%;
+
+    }
+                                                                 
+#loginbutton{
+    position: absolute;
+    top: 350px;
+    
+}
+
+#begg{
+    position: relative;
+    top: 335px;
+    left: 41.4%;
+}
+
+.formfont{
+    font-family: fantasy;
+    font-size: 12px;
+}
